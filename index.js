@@ -7,14 +7,14 @@ function gameStart() {
 
 function numberGenerator1() {
   var randomNumber1 = (Math.ceil(Math.random() * 6));
-  document.querySelector(".img1").setAttribute("src", ("images/dice" + [randomNumber1] + ".png"));
+  document.querySelector(".img1").setAttribute("src", ("public/images/dice" + [randomNumber1] + ".png"));
 
   return randomNumber1
 }
 
 function numberGenerator2() {
   var randomNumber2 = (Math.ceil(Math.random() * 6));
-  document.querySelector(".img2").setAttribute("src", "images/dice" + [randomNumber2] + ".png");
+  document.querySelector(".img2").setAttribute("src", "public/images/dice" + [randomNumber2] + ".png");
 
   return randomNumber2
 }
